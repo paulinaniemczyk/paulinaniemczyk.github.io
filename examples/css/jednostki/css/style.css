@@ -1,0 +1,40 @@
+
+div {
+    height: 30px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+#pixels {
+    width: 300px;
+}
+
+#em {
+    width: 10em;
+}
+
+#percent {
+    width: 50%;
+}
+
+#vw {
+    width: 40vw;
+    
+}
+/* po zmianach kolor */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #0000ff;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255,0,0);
+}
+/* dodatkowy jako transparentność*/
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255,0,0,0.6);
+}

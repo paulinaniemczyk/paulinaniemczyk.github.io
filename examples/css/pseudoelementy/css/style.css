@@ -1,0 +1,8 @@
+#first::before {
+    content: '$';
+   color:aqua;
+}
+#second::after {
+    content: 'this is after';
+   color:firebrick;
+}

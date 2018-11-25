@@ -1,0 +1,34 @@
+[title] {
+    color:blue
+}
+
+[title="Main page"] {
+    color:salmon
+}
+
+[title~="skills"]{
+    color:blueviolet;
+    
+}
+
+[title*="a"]{
+    background-color:red;
+    
+}
+
+[title^="Container"]{
+    background-color: burlywood;
+    
+}
+
+[title$="me"]{
+    background-color: aqua
+}
+
+.blue {
+    color: crimson
+}
+
+#red {
+    color: cornflowerblue
+}

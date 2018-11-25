@@ -1,0 +1,21 @@
+p{
+    color:blueviolet;
+}
+.text{
+    color:aqua
+}
+p.text{
+    color:brown;
+}
+div.tekst{
+    color:chartreuse;
+}
+
+ul > li {
+    color:darkolivegreen;
+}
+
+ul > li#third, 
+ul > li#third ~ li {
+    color:crimson;
+}

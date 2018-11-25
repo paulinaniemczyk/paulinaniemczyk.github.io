@@ -1,0 +1,15 @@
+#p1 {
+    background-color: aqua;
+}
+#p2 {
+    background-color: darksalmon;
+}
+p {
+    display: inline;}
+
+ul > li {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
