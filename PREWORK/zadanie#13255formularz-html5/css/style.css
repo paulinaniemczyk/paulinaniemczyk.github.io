@@ -1,0 +1,14 @@
+form {
+    background-color: darkseagreen;
+    color:black;
+    font-family:inherit;
+    width: 300px;
+    padding: 30px;
+}
+
+input, textarea, select {
+    background-color: darkkhaki;
+    color:white;
+    border-width: 2px;
+    border-color: darkkhaki;
+}
