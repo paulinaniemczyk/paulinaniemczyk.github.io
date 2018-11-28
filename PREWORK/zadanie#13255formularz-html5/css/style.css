@@ -1,14 +1,40 @@
 form {
     background-color: darkseagreen;
     color:black;
-    font-family:inherit;
+    font-family: serif;
     width: 300px;
-    padding: 30px;
+    padding: 20px;
+}
+form input{
+    margin-bottom: 10px;
+}
+form label {
+    display:block;
+    margin-bottom: 5px;
 }
 
-input, textarea, select {
+form input[type='text'],
+form input[type='email'],
+form input[type='number'],
+form textarea,
+form select {
     background-color: darkkhaki;
-    color:white;
+    color: white;
     border-width: 2px;
     border-color: darkkhaki;
+}
+form select:focus,
+form input:focus,
+form textarea:focus {
+    background-color: gray;
+    border: 2px solid green;
+    outline: none,    
+}
+form label[for*='male']{
+    display: inline-block;
+}        
+form label[for='agreement']
+{
+    display: inline;
+    margin-bottom: 0px;
 }
