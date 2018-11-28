@@ -32,9 +32,10 @@ form textarea:focus {
 }
 form label[for*='male']{
     display: inline-block;
-}        
-form label[for='agreement']
-{
-    display: inline;
+}      
+
+form label[for="agreement"]{
+    display:inline;
+    padding-bottom: 0px;
     margin-bottom: 0px;
 }
