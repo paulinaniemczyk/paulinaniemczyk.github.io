@@ -13,13 +13,13 @@
        action="formspreeform",method="POST">
    
         <label for="name">Imię</label>
-        <input type="text" name='name' id='name'>
+        <input type="text" name='name' id='name' required>
         
         <label for="lastname">Nazwisko</label>
-        <input type="text" name='lastname' id='lastname'>
+        <input type="text" name='lastname' id='lastname'required>
         
         <label for="mail">E-mail</label>
-        <input type="email" name='mail' id='mail'>
+        <input type="email" name='mail' id='mail'required>
             
         <label for="telephon">Telefon</label>
         <input type="number" name='telephon' id='telephon'>
@@ -41,7 +41,7 @@
         <label for="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych.</label>
         
         <label for="message">Wiadomość:</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <textarea name="message" id="message" cols="30" rows="10"placeholder="Tutaj wpisz tekst wiadomości"></textarea>
         
         <input type="submit" value="Wyślij">
         
