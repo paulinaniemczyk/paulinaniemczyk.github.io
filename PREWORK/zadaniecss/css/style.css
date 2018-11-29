@@ -1,0 +1,51 @@
+div.block {
+    width: 130px;
+    height: 130px;
+    background-color: aqua;
+}
+p.circle {
+    border: 2px solid black;
+    padding: 0px;
+    border-radius: 40px 40px 40px 40px;
+    width: 70px;
+    height: 70px;
+    
+}
+.five, #box1
+ {
+    background-color: red;
+}
+ .six, #box2
+ {
+    background-color: blue;
+}
+.four, #box3
+ {
+    background-color: green;
+}
+.eight, #box4
+ {
+    background-color: yellow;
+}
+.nine, #box5
+ {
+    background-color: black;
+}
+.seven, #box6
+ {
+    background-color: orange;
+}
+.three, #box7
+ {
+    background-color: purple;
+}
+.two, #box8
+ {
+    background-color: grey;
+}
+.one, #box9
+ {
+    background-color: pink;
+}
+       
+
