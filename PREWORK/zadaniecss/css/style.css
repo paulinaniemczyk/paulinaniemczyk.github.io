@@ -2,6 +2,9 @@ div.block {
     width: 130px;
     height: 130px;
     background-color: aqua;
+    display: inline-block;
+    margin: 0px ;
+    padding: 0px;
 }
 p.circle {
     border: 2px solid black;
@@ -9,6 +12,9 @@ p.circle {
     border-radius: 40px 40px 40px 40px;
     width: 70px;
     height: 70px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
     
 }
 .five, #box1
@@ -47,5 +53,42 @@ p.circle {
  {
     background-color: pink;
 }
-       
+#box2 {
+    position:relative;
+    left:-80px;
+}
+#box3 {
+    position:relative;
+    left:-160px;
+}
+#box4 {
+    position:relative;
+    left:-636px;
+    top:132px;
+}
+#box5 {
+    position:relative;
+    left:-715px;
+    top:132px;
+}
+#box6 {
+    position:relative;
+    left:-795px;
+    top:132px;
+}
+#box7 {
+    position:relative;
+    left:-1270px;
+    top:264px;
+}
+#box8 {
+    position:relative;
+    left:-1350px;
+    top:264px;
+}
+#box9 {
+    position:relative;
+    left:-1430px;
+    top:264px;
+}
 
