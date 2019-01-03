@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--    meta:vp-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,">
+    <title>Document</title>
+
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!--    Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!--   Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--    Main Style-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="main-header">
+        <div class="main-header-content">
+            <h1>Front end developer</h1>
+            <hr>
+            <p>HTML <span>&#8226;</span>CSS <span>&#8226;</span> JavaScript</p>
+            <a href="" class="btn">Dowiedz się więcej</a>
+        </div>
+    </header>
+    <!--   Navigation-->
+    <nav class="main-nav">
+        <label for="drop-nav">MENU</label>
+       <input type="checkbox" id='drop-nav'>
+       
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="#about">O mnie</a></li>
+            <li class="nav-menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-menu-item"><a href="#kontakt">Kontakt</a></li>
+
+        </ul>
+    </nav>
+    <!-- About-->
+    <section id="about" class="about">
+        <div class="container">
+            <header>
+                <h2>O mnie</h2>
+                <hr>
+            </header>
+            <img src="grafika/about.jpg" alt="Anna Kowalska">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dolore provident animi, commodi dicta libero consectetur veniam doloribus cumque tenetur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dolore provident animi, commodi dicta libero consectetur veniam doloribus cumque tenetur.</p>
+            <a href="#portfolio" class="btn">Moje portfolio</a>
+        </div>
+    </section>
+    <!--Portfolio-->
+    <section id=portfolio class="portfolio">
+        <div class="container">
+            <header>
+                <h2>Portfolio</h2>
+                <hr>
+            </header>
+            <div class="portfolio-wrapper">
+                <a href="" class="portfolio-item"><img src="portfolio/photo-1.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-2.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-3.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-4.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-5.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-6.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-7.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-8.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-9.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-10.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-11.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item"><img src="portfolio/photo-12.jpg" alt="Projekt">
+                    <h3>Projekt</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Kontakt-->
+<!--    ctr wyswietla kilka kursorów po kliknięciu-->
+    <section id=kontakt class="kontakt">
+        <div class="container">
+            <header>
+                <h2>kontakt</h2>
+                <hr>
+            </header>
+            <form action="" metod='POST'>
+                <input type="text"  placeholder="Imię">
+                <input type="email"   placeholder="Email">
+               <textarea name="message" id="message" placeholder='Wiadomość'></textarea>
+               <input class="btn" type="submit">
+            </form>
+            <div class="social-link">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+        
+    </section>
+<!--    stopka-->
+<footer>
+    <div class="container">
+        <p>Copyright &copy; Akademia 108 - Szkoła Programowania</p>
+    </div>
+    
+</footer>
+</body>
+
+</html>

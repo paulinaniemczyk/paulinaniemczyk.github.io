@@ -1,0 +1,257 @@
+/*General styles*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+hr {
+    background-color: #007bff;
+    height: 1px;
+    width: 70px;
+    border: 0;
+}
+.btn {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    color: #333;
+    transition: all 0.3s; 
+    
+}
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    
+}
+section {
+    text-align: center;
+    padding: 120px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+section header {
+    margin-bottom: 80px;
+}
+section header h2{
+    text-transform: uppercase;
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+/*Header*/
+header.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../grafika/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.main-header h1 {
+    font-size: 4.2em;
+    text-transform: uppercase;
+    color: #007bff;
+    margin: 0;
+}
+.main-header p {
+    font-size: 1.3em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.main-header p span{
+    color: #007bff;
+}
+/* Navigation*/
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    z-index: 100;
+}
+.main-nav label, .main-nav #drop-nav {
+    display: none;
+}
+.main-nav .nav-menu {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-nav .nav-menu .nav-menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-nav .nav-menu .nav-menu-item a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.main-nav .nav-menu .nav-menu-item a:hover {
+    color: #007bff;
+    background-color: #fff;
+}
+/*About */
+.about img{
+    border-radius: 50%;
+}
+.about p {
+    max-width: 700px;
+    margin: 40px auto;
+}
+.about .btn{
+    display:inline-block;
+    margin-top: 10px;
+}
+/*Portfolio*/
+section.portfolio {
+    background-color: #f2f1ed;
+}
+
+.portfolio .portfolio-wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.portfolio .portfolio-wrapper .portfolio-item {
+    position:relative;
+    height: 200px;
+    flex-basis: 25%;
+}
+.portfolio .portfolio-wrapper .portfolio-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio .portfolio-wrapper .portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    line-height: 200px;
+    margin: 0;
+    width: 100%;
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    background-color: rgba(0, 123, 255, 0.8);
+    opacity: 0;
+    transition: all 0.5s;
+/*    rgba - prawym szybka edycja*/
+}
+.portfolio .portfolio-wrapper .portfolio-item h3:hover {
+    opacity: 1;
+}
+/* Kontakt*/
+.kontakt form {
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kontakt form input:not([type="submit"]) {
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.kontakt form textarea {
+    flex-basis: 100%;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.kontakt form .btn {
+    margin: auto;
+}
+
+.kontakt .social-link {
+    margin-top: 80px;
+}
+.kontakt .social-link a {
+    font-size: 2.5em;
+    margin: 0 20px;
+    color: #007bff;
+    transition: all 0.5s;
+}
+.kontakt .social-link a:hover {
+    color: #5a5a5a;
+}
+/*Stopka*/
+footer {
+    background-color: #f2f1ed;
+    text-align: center;
+    padding: 30px;
+}
+
+/*Responsive css*/
+
+@media (max-width: 1200px){
+    .container {
+        max-width: 992px;
+    }
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 768px;
+    }
+    .portfolio .portfolio-wrapper .portfolio-item {
+    flex-basis: 50%;
+}
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+    }
+    .portfolio .portfolio-wrapper .portfolio-item {
+    flex-basis: 100%;
+}
+}
+@media (max-width: 480px) {
+    .main-header h1{
+        font-size: 3em;
+    }
+    .main-nav label {
+        display:block;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px; 20px;
+        text-align: right;
+        transition: all 0.5s;
+    }
+    
+    .main-nav .nav-menu {
+        display: none;
+    }
+    .main-nav #drop-nav:checked + ul {
+        display: block;
+    }
+    .main-nav .nav-menu .nav-menu-item {
+        display: block;
+        text-align: right;
+    }
+    .contact form input:not([type="submit"]) {
+        flex-basis: 100%;
+    }
+    }
+
+
+
+
+
+
+
+
