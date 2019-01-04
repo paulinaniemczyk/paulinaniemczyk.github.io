@@ -1,0 +1,43 @@
+@font-face {
+	font-family: comic;
+	src: local("Verdana"), url(http://adres/plik.ttf) format("truetype");
+}
+
+.main-header {
+    font-family: Verdana;
+    font-size: 1.5em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../obrazy/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    padding: 5vh;
+
+    }
+
+    /*Responsive css*/
+
+    @media (max-width: 1140px) {
+        .main-header {
+            background-image: url(../obrazy/man-2.jpg);
+            height: 70vh;
+            justify-content: flex-start;
+            align-items: flex-end;
+            font-size: 0.8em;
+            text-align: left;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .main-header {
+            display:block;
+            height: 50vh;
+            background-image: url(../obrazy/man-1.jpg);
+            text-align: center;
+        }
+    }
