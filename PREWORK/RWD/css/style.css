@@ -2,6 +2,9 @@
 	font-family: comic;
 	src: local("Verdana"), url(http://adres/plik.ttf) format("truetype");
 }
+body {
+    margin: 0;
+}
 
 .main-header {
     font-family: Verdana;
@@ -14,8 +17,6 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin-left: 0.7vw;
-    margin-right: 0.7vw;
     padding: 5vh;
 
     }
@@ -30,14 +31,23 @@
             align-items: flex-end;
             font-size: 0.8em;
             text-align: left;
+            font size: 0.8em;
         }
     }
 
     @media (max-width: 992px) {
         .main-header {
-            display:block;
             height: 50vh;
             background-image: url(../obrazy/man-1.jpg);
+            
+        }
+        .inscription {
+            margin-top: 60vh;
+            color: black;
+            font-size: 120%;
+            margin-right: 17%;
             text-align: center;
+            
+           
         }
     }
