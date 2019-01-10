@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-size: 150%;
-    height: 100vh;
+    height: 50vh;
     box-sizing: border-box;
 }
 
@@ -14,13 +14,18 @@ header {
     text-transform: uppercase;
     box-sizing: border-box;
 }
+header p {
+    margin: 0;
+    padding: 10px;
+}
 div.container {
     display:flex;
     flex-direction: row;
     height: 40vh;
     box-sizing: border-box;
-    
-    
+}
+div.container p {
+    margin: 0;
 }
 div.left {
     background-color: green;
@@ -58,6 +63,10 @@ footer {
     box-sizing: border-box;
     
 }
+footer p {
+    margin: 0;
+    padding: 10px;
+}
 
 /*Responsive css*/
 
@@ -65,23 +74,25 @@ footer {
 
 @media (max-width:992px) {
         div.container {
-        height: 80vh;
         flex-wrap: wrap;
+            width: 100vw;
+            height:88vh;
+    }
         
-   /* }
+   
     div.center {
-    
-    flex-basis: 35%;
+    order: -1;
+    flex-basis: 70%;
     
 }
     div.left {
     
-    flex-basis: 15%;
+    flex-basis: 30%;
     
 }
     div.right {
     
-    flex-basis: 50%;*/
+    flex-basis: 100%;
     
 }
     
@@ -89,16 +100,22 @@ footer {
 @media (max-width:768px) {
     div.container {
         flex-direction: column;
-        height: 80vh;
+        height: 87vh;
+        flex-wrap:nowrap;
+        width: 100vw;
+        align-content: stretch;
     }
     div.left {
-        flex-basis: none;
+        flex-basis: 33.3%;
     }
     div.center {
-        flex-basis: none;
+        flex-basis: 33.3%;
     }
     div.right {
-        flex-basis: none;
+        flex-basis: 33.3%;
+    }
+    body {
+        height: 100vh;
     }
 
 
