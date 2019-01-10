@@ -1,0 +1,28 @@
+div.container {
+    height: 200px;
+    width: 600px;
+    background-color: #000;
+    
+}
+ h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+     margin: 0;
+     padding: 40px;
+     animation: number 11s steps(10,end) infinite;
+     }
+
+@keyframes number {
+    0% { content:"10";}
+    10% { content:"9";}
+    20% { content:"8";}
+    30% { content:"7";}
+    40% { content:"6";}
+    50% { content:"5";}
+    60% { content:"4";}
+    70% { content:"3";}
+    80% { content:"2";}
+    90% { content:"1";}
+    100% { content:"I love CSS ";}
+}
